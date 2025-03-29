@@ -17,5 +17,6 @@ export default defineConfig({
       cert: fs.readFileSync(path.resolve("/Users/dongdongey/mkcert/localhost.pem")),
     }
     */
-  }
+  },
+  base: "./"
 })
