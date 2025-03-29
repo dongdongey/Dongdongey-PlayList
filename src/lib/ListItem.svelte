@@ -6,7 +6,6 @@
 
 <button
     class="w-full flex flex-row p-1 h-20 outline-2 outline-zinc-900 mx-0 my-2 rounded-2xl hover:outline-[var(--progress-red)]"
-    style="-webkit-tap-highlight-color: transparent;"
     on:click
 >
     <img
@@ -14,18 +13,11 @@
         src={thumbnailUrl}
         alt=""
     />
-    <div
-        class="ml-3 py-2 flex flex-col text-left truncate w-full justify-between"
-    >
+    <div class="ml-3 flex flex-col text-left truncate w-full justify-between">
         <p class="font-bold text-xl">{songName}</p>
         {#if url !== null}
             <div class="self-end mb-1">
-                <a
-                    href={url}
-                    class="ml-auto text-sm font-thin"
-                    target="_blank"
-                    style="-webkit-tap-highlight-color: transparent;"
-                >
+                <a href={url} class="ml-auto text-sm font-thin" target="_blank">
                     go to soundcloud
                 </a>
             </div>
