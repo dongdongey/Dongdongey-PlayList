@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "name": "dabt",
+        "image_url": "/image.png",
+        "path": "/musics/dabt.wav",
+        "soundcloud": null
+    },
+    {
+        "id": 1,
+        "name": "mirror",
+        "image_url": "/image.png",
+        "path": "/musics/mirror.wav",
+        "soundcloud": "https://soundcloud.com/dongdongey"
+    },
+    {
+        "id": 2,
+        "name": "yogurt",
+        "image_url": "/image.png",
+        "path": "/musics/yogurt.wav",
+        "soundcloud": "https://soundcloud.com/dongdongey"
+    }
+]
